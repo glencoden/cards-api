@@ -1,3 +1,8 @@
-name = "cards-api"
+name = "cards"
 main = "src/index.ts"
 compatibility_date = "2023-03-25"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "cards"
+database_id = "013fb5d6-18de-456e-8b7a-c8d8bf24f17a"
